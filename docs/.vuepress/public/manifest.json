@@ -1,0 +1,45 @@
+{
+    "name": "晋沐南风",
+    "short_name": "晋沐南风",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "晋沐南风支教官网——山西学子回乡筑梦",
+    "icons": [
+        {
+            "src": "/img/logo/logo-without-name-32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/logo/logo-without-name-48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/logo/logo-without-name-64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/logo/logo-without-name-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/logo/logo-without-name-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/logo/logo-without-name-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/logo/logo-without-name-256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ]
+}
