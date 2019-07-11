@@ -8,7 +8,7 @@ deploy() {
     echo -e $1 > CNAME
     git add -A
     git commit -m 'deploy'
-    git push -f $2 master:gh-pages
+    git push -f $2 master
 }
 
 set -e
