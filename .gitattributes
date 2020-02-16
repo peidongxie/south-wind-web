@@ -1,2 +1,2 @@
+docs/* linguist-documentation=false
 *.md linguist-language=HTML
-README.md linguist-language=Markdown
