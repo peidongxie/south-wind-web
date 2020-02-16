@@ -1,9 +1,13 @@
-if (!navigator.language || navigator.language === 'zh-CN') {
-  if (location.href.indexOf('southwind') !== -1) {
-    location.href = location.href.replace('southwind', 'jmnf');
+const QQmap = (response) => {
+  if (response.status === 0) {
+    if (response['result']['ad_info']['addcode'] === 0) {
+      if (!location.hostname.startsWith('www.')) {
+        location.hostname = 'www.' + location.hostname;
+      }
+    } else {
+      if (location.hostname.startsWith('www.')) {
+        location.hostname = location.hostname.substr(4);
+      }
+    }
   }
-} else {
-  if (location.href.indexOf('jmnf') !== -1) {
-    location.href = location.href.replace('jmnf', 'southwind');
-  }
-}
+};

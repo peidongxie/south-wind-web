@@ -12,13 +12,13 @@ if [ "$1" = '' ]; then
   echo 'www.southwind.peaceandlove.top' >CNAME
   git add -A
   git commit -m 'deploy'
-  git push -f 'https://github.com/peidongxie/south-wind-web.git' master
+  git push -f 'https://github.com/peidongxie/south-wind-pages.git' master
 
 elif [ "$1" = 'github' ]; then
   echo 'www.southwind.peaceandlove.top' >CNAME
   git add -A
   git commit -m 'deploy'
-  git push -f 'https://github.com/peidongxie/south-wind-web.git' master
+  git push -f 'https://github.com/peidongxie/south-wind-pages.git' master
 
 elif [ "$1" = 'coding' ]; then
   git add -A

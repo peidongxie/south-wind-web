@@ -4,7 +4,8 @@ module.exports = {
   head: [
     ['link', {rel: 'icon', href: '/img/logo/logo-without-name.ico'}],
     ['link', {rel: 'manifest', href: '/manifest.json'}],
-    ['script', {src: '/js/jump.js'}]
+    ['script', {src: '/js/jump.js'}],
+    ['script', {src: 'https://apis.map.qq.com/ws/location/v1/ip?key=EZGBZ-WQE6X-7QZ4W-7VHQQ-K5VX5-6WF7N&output=jsonp'}]
   ],
   themeConfig: {
     nav: [
