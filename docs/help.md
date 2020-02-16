@@ -9,9 +9,9 @@
 
 ## 特性
 
-- 响应式布局，不同平台上都有较好的适配（包括移动端横屏适配）
-- PWA，在现代化的浏览器首次加载后会提升下次加载速度，部分移动端浏览器（如chrome、firefox、小米浏览器）可以将其添加至桌面，提供近乎Native的体验
-- 标题检索，匹配若干级文档标题
+- 响应式布局
+- 标题检索
+- PWA
 
 ## 开始之前
 
@@ -27,7 +27,7 @@
 - 至少一个JavaScript包管理器：npm、Yarn（以下使用Yarn演示）
 - 至少一个编辑器：VS code、Sublime Text、Atom、 WebStorm
 
-## 架构
+### 架构
 
 ![架构图](/img/architecture.png)
 
@@ -35,6 +35,8 @@
 
 - 源码仓库与产品仓库分离，便于开发部署
 - 国内产品仓库与海外产品仓库分离，不同的部署平台配合跳转脚本，加快访问速度
+
+2020年2月，腾讯云开发者平台已经升级为Coding团队版平台
 
 ### 目录
 
@@ -175,10 +177,10 @@ git push
 yarn deploy
 ```
 
-如果仅部署到腾讯云
+如果仅部署到Coding
 
 ``` shell
-yarn deploy tencent
+yarn deploy coding
 ```
 
 如果仅部署到GitHub

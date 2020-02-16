@@ -5,11 +5,11 @@
   "author": "xiepeidong <peidongxie@outlook.com>",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.2",
-    "@vuepress/plugin-medium-zoom": "^1.0.2",
-    "@vuepress/plugin-nprogress": "^1.0.2",
-    "@vuepress/plugin-pwa": "^1.0.2",
-    "vuepress": "^1.0.2"
+    "@vuepress/plugin-back-to-top": "latest",
+    "@vuepress/plugin-medium-zoom": "latest",
+    "@vuepress/plugin-nprogress": "latest",
+    "@vuepress/plugin-pwa": "latest",
+    "vuepress": "latest"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
